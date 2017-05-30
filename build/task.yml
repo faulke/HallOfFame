@@ -1,0 +1,11 @@
+platform: windows
+
+image_resource:
+  type: docker-image
+  source:
+    repository: microsoft/aspnet
+    tag: latest
+
+run:
+  dir: code
+  path: msbuild
